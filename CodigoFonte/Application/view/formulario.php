@@ -15,7 +15,7 @@ $fornecedor = new fornecedor();
 Produto:<br>
 <input type ="text" name="produto" /><br>
 
-<input type="submit" value="Cadastrar" />
+
 <br>
 <br>
 Fornecedor <br>
@@ -46,9 +46,10 @@ foreach ($marca->busca_marca()as $linha ){
 
 </select>
 		
+<br>
+<br>
 
-
-
+<input type="submit" value="Cadastrar" />
 
 
 
